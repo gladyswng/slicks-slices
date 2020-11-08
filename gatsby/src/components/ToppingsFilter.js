@@ -79,11 +79,11 @@ export default function ToppingsFilter({ activeTopping }) {
     }
   `);
 
-  console.log(toppings, pizzas);
+ 
 
   // Count how many pizzas are in each topping
   const toppingsWithCounts = countPizzasInToppings(pizzas.nodes);
-  console.log(toppingsWithCounts);
+
   // Loop over the list of toppings - display topping and pizza count
 
   // Static query out side of page- limitations of gatsby - queries that do not take in variables

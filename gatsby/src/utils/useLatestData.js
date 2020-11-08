@@ -50,7 +50,7 @@ export default function useLatestData() {
       setSlicemasters(res.data.StoreSettings.slicemaster)
     })
     .catch(err => {
-      console.log('shooot')
+   
       console.log(err)
     })
      

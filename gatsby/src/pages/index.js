@@ -7,7 +7,7 @@ import useLatestData from '../utils/useLatestData';
 
 
 function CurrentlySlicing({ slicemasters }) {
-  console.log(slicemasters)
+ 
   return <div>
     <h2 className="center">
       <span className="mark tilt">slicemasters On</span>
